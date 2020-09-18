@@ -1,6 +1,7 @@
 import React from 'react'
 import '../style.css'
-
+import Counter from './Counter'
+import MovieList from './MovieList'
 const Hooks = props => {
   return (
     <section className="advanced-react-section">
@@ -14,6 +15,8 @@ const Hooks = props => {
           Docs
         </a>
       </h1>
+      <Counter />
+      <MovieList />
     </section>
   )
 }
